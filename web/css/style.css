@@ -1,0 +1,43 @@
+.container-body{
+    margin-top: 100px;
+}
+img.checked {
+    width: 25px;
+    height: 25px;
+}
+input#done {
+    width: 20px;
+}
+div.error-box {
+    line-height: 40px;
+    height: 40px;
+    color: red;
+    padding: 0 20px;
+    border: solid 1px red;
+    border-radius: 6px;
+    margin: 7px 0px;
+}
+div.hidden-error-box{
+    display: none;
+}
+table {
+    margin-top: 10px;
+}
+ul.pagination {
+    width: calc( 100% - 170px );
+    text-align: center;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    line-height: 27px;
+}
+li {
+    border: solid 1px gray;
+    border-radius: 7px;
+    padding: 0 15px;
+}
+
+div.paging {
+    width: 170px;
+}
